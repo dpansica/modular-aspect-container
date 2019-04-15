@@ -9,6 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <groupId>it.solutionsexmachina.modular-aspect</groupId>
     <artifactId>aspect.api</artifactId>
 
 

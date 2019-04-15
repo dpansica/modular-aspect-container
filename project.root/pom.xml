@@ -9,6 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <groupId>it.solutionsexmachina.modular-aspect</groupId>
     <artifactId>project.root</artifactId>
     <packaging>pom</packaging>
 
@@ -49,7 +50,7 @@
     <dependencies>
         <!-- Include AOP dependencies -->
         <dependency>
-            <groupId>it.deepa.modular-aspect</groupId>
+            <groupId>it.solutionsexmachina.modular-aspect</groupId>
             <artifactId>aspect.impl</artifactId>
         </dependency>
         <dependency>
