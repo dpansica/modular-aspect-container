@@ -1,4 +1,4 @@
-package it.deepa.modularaspect.aspect.api;
+package it.solutionsexmachina.modularaspect.aspect.api;
 /**
  * Exception indicating problems occurred when validating a Validatable instance.
  */

@@ -1,8 +1,8 @@
-package it.deepa.modularaspect.test.bean;
+package it.solutionsexmachina.modularaspect.test.bean;
 
-import it.deepa.modularaspect.aspect.api.InternalStateValidationException;
-import it.deepa.modularaspect.aspect.api.Validatable;
-import it.deepa.modularaspect.aspect.impl.ValidationAspect;
+import it.solutionsexmachina.modularaspect.aspect.api.InternalStateValidationException;
+import it.solutionsexmachina.modularaspect.aspect.api.Validatable;
+import it.solutionsexmachina.modularaspect.aspect.impl.ValidationAspect;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

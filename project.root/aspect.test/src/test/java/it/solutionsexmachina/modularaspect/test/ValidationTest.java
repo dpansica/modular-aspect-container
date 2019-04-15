@@ -1,7 +1,7 @@
-package it.deepa.modularaspect.test;
+package it.solutionsexmachina.modularaspect.test;
 
-import it.deepa.modularaspect.aspect.api.InternalStateValidationException;
-import it.deepa.modularaspect.test.bean.TestValidationBean;
+import it.solutionsexmachina.modularaspect.aspect.api.InternalStateValidationException;
+import it.solutionsexmachina.modularaspect.test.bean.TestValidationBean;
 import org.junit.Test;
 
 public class ValidationTest {

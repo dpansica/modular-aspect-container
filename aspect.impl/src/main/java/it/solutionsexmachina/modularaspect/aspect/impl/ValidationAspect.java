@@ -1,7 +1,7 @@
-package it.deepa.modularaspect.aspect.impl;
+package it.solutionsexmachina.modularaspect.aspect.impl;
 
-import it.deepa.modularaspect.aspect.api.InternalStateValidationException;
-import it.deepa.modularaspect.aspect.api.Validatable;
+import it.solutionsexmachina.modularaspect.aspect.api.InternalStateValidationException;
+import it.solutionsexmachina.modularaspect.aspect.api.Validatable;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.AfterReturning;
 import org.aspectj.lang.annotation.Aspect;
@@ -40,7 +40,7 @@ public class ValidationAspect {
      * @param joinPoint    The currently executing joinPoint.
      * @param aValidatable The Validatable instance just created.
      */
-    @Pointcut(value = "initialization(it.deepa.modularaspect.aspect.api.Validatable+.new(..)) "
+    @Pointcut(value = "initialization(it.solutionsexmachina.modularaspect.aspect.api.Validatable+.new(..)) "
             + "&& this(aValidatable) "
             + "&& !anyDefaultConstructor()", argNames = "joinPoint, aValidatable")
     void anyNonDefaultConstructor(final JoinPoint joinPoint, final Validatable aValidatable) {

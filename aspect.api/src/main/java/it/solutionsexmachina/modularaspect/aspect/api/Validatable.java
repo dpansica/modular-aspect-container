@@ -1,4 +1,4 @@
-package it.deepa.modularaspect.aspect.api;
+package it.solutionsexmachina.modularaspect.aspect.api;
 
 /**
  * Specification for providing an object with Validation mechanics.
