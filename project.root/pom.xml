@@ -20,7 +20,7 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>it.deepa.modular-aspect</groupId>
+                <groupId>it.solutionsexmachina.modular-aspect</groupId>
                 <artifactId>aspect.impl</artifactId>
                 <version>${project.parent.version}</version>
             </dependency>
@@ -88,8 +88,8 @@
                         <include>**/*.java</include>
                         <include>**/*.aj</include>
                     </includes>
-                    <aspectDirectory>src/main/aspect</aspectDirectory>
-                    <testAspectDirectory>src/test/aspect</testAspectDirectory>
+                    <aspectDirectory>src/main/java</aspectDirectory>
+                    <testAspectDirectory>src/test/java</testAspectDirectory>
                     <XaddSerialVersionUID>true</XaddSerialVersionUID>
                     <showWeaveInfo>true</showWeaveInfo>
                     <aspectLibraries>
